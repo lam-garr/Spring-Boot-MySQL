@@ -1,5 +1,7 @@
 package com.example.lamgarr.demomysql.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.example.lamgarr.demomysql.models.User;
@@ -11,5 +13,9 @@ public class UserService {
 
     public User saveUser(User user) {
         return userRepository.save(user);
+    }
+
+    public List<User> saveUsers(List<User> users) {
+        return userRepository.saveAll(users);
     }
 }
