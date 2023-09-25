@@ -18,4 +18,8 @@ public class UserService {
     public List<User> saveUsers(List<User> users) {
         return userRepository.saveAll(users);
     }
+
+    public User getUserByName(String name) {
+        return userRepository.findByName(name);
+    }
 }
