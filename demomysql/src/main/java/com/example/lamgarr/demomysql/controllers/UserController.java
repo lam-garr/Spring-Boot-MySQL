@@ -40,4 +40,10 @@ public class UserController {
     public User getUserByName(@PathVariable String name) {
         return userService.getUserByName(name);
     }
+
+    @PostMapping("/update")
+    public void updateUser(@RequestBody User user) {
+        //userService.updateUser(user);
+        return;
+    }
 }
