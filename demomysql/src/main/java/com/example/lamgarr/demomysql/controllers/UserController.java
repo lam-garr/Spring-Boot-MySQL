@@ -53,4 +53,10 @@ public class UserController {
         userService.deleteUserById(id);
         return;
     }
+
+    @DeleteMapping("/delete-all/{name}")
+    public void deleteAllUsersByName(@PathVariable String name) {
+        //userService.deleteAllUsersByName(name);
+        return;
+    }
 }
