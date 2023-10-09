@@ -48,6 +48,11 @@ public class UserController {
         return userService.getUserByEmail(email);
     } */
 
+    /* @GetMapping("/get-user-name/{id}")
+    public String getNameOfUser(@PathVariable int id) {
+        return userService.getNameOfUser(id);
+    } */
+
     @PostMapping("/update")
     public void updateUser(@RequestBody User user) {
         //userService.updateUser(user);
