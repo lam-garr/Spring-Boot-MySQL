@@ -80,6 +80,12 @@ public class UserController {
         return;
     }
 
+    @DeleteMapping("delete/{email}")
+    public void deleteUserByEmail(@PathVariable String email) {
+        //userService.deleteUserByEmail(email);
+        return;
+    }
+
     @DeleteMapping("/delete-all/{name}")
     public void deleteAllUsersByName(@PathVariable String name) {
         //userService.deleteAllUsersByName(name);
