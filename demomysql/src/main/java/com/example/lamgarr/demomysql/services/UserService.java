@@ -40,4 +40,12 @@ public class UserService {
         //
         return;
     }
+
+    /* public int getAgeOfUser(int id) {
+        return;
+    } */
+
+    /* public int getBirthdayOfUser(int id) {
+        return;
+    } */
 }
