@@ -48,4 +48,8 @@ public class UserService {
     /* public int getBirthdayOfUser(int id) {
         return;
     } */
+
+    /* public String getEmailOfUser(int id) {
+        return;
+    } */
 }
