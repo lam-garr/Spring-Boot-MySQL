@@ -52,4 +52,8 @@ public class UserService {
     /* public String getEmailOfUser(int id) {
         return;
     } */
+
+    /* public String getNameOfUser(int id) {
+        return;
+    } */
 }
