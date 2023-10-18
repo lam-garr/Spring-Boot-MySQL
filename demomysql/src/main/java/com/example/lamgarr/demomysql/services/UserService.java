@@ -41,6 +41,10 @@ public class UserService {
         return;
     }
 
+    /* public int getIdOfUser(int id) {
+        return;
+    } */
+
     /* public int getAgeOfUser(int id) {
         return;
     } */
