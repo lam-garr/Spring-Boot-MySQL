@@ -43,6 +43,11 @@ public class UserController {
         return userService.getUserByName(name);
     }
 
+    /* @GetMapping("/get-user-id/{id}")
+    public int getIdOfUser(@PathVariable int id) {
+        return userService.getIdOfUser(id);
+    } */
+
     /* @GetMapping("/user/{email}")
     public User getUserByEmail(@PathVariable String email) {
         return userService.getUserByEmail(email);
